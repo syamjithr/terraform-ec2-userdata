@@ -14,7 +14,7 @@ Download Terraform from link and set up it in a linux machine. ( Here I'm using 
 resource "aws_key_pair" "mykey" {
 
   key_name   = "mykey"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5jd47hesPgbpuNi/3kuMo0ux6hmZ5K/77fpJH7LqHeexB1aG7eexf20v0wW7P5rtMsn9N9AdkXzmcy4BzdYydv1DFQX3CSbz5tJugf4Jj0i+W8wEjX9g7n7eC1DMSEbPoEfNnKg3t9fGqe6h74mDAT+FnM6++CNMzs4Qmel1YnCvxKlXlMDYOiC1OlJsMwAZC1y28AB2t8MpKK/5/5WoqQe1EWjXlg72O7hmFZgqr/gLb58TBfhXuKMQTVhaAC7F4xPGg8KlNwcIRLbWIllswzDSNdnpQUgb1NjPeEgQrx8+Zu6CORxf1hTrGDj1iAmYe2oxumycI8mfbeMbToWm5 root@ip-172-31-2-202.ap-south-1.compute.internal"
+  public_key = "-----------------------replace with your public key-------------------------------"
   tags = {
       Name = "mykey"
   }
